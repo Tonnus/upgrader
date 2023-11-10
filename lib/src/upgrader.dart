@@ -691,7 +691,7 @@ class Upgrader with WidgetsBindingObserver {
             children: <Widget>[
               Text(messages.message(UpgraderMessage.releaseNotes) ?? '',
                   style: const TextStyle(fontWeight: FontWeight.bold)),
-              Text(releaseNotes),
+              Text(releaseNotes, textAlign: TextAlign.left,),
             ],
           ));
     }
